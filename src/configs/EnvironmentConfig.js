@@ -11,7 +11,6 @@ const test = {
 };
 
 const getEnv = () => {
-	console.log(process.env)
 	switch (process.env.NODE_ENV) {
 		case 'development':
 			return dev

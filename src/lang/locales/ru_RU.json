@@ -1,17 +1,17 @@
 {
 	"home": "Home",
 	
-	"sidenav.basic": "Basic",
-	"sidenav.dashboard": "Dashboard",
+	"sidenav.basic": "Основное",
+	"sidenav.dashboard": "Дашбоард",
 	"sidenav.dashboard.default": "Default",
 	"sidenav.dashboard.analytic": "Analytic",
 	"sidenav.dashboard.sales": "Sales",
 
-	"sidenav.catalog": "Catalog",
-	"sidenav.catalog.products": "Products",
-	"sidenav.catalog.categories": "Categories",
-	"sidenav.catalog.collections": "Collections",
-	"sidenav.catalog.combo": "Combo",
+	"sidenav.catalog": "Каталог",
+	"sidenav.catalog.products": "Товары",
+	"sidenav.catalog.categories": "Категории",
+	"sidenav.catalog.collections": "Коллекции",
+	"sidenav.catalog.combo": "Комбо",
 
 	"sidenav.apps": "Apps",
 	"sidenav.apps.mail": "Mail",

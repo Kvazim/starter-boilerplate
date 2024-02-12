@@ -15,16 +15,16 @@ import {
 import { APP_PREFIX_PATH } from 'configs/AppConfig'
 
 const dashBoardBasic = [{
-  key: 'home',
+  key: 'basic',
   path: `${APP_PREFIX_PATH}/home`,
-  title: 'Основные',
+  title: 'sidenav.basic',
   icon: '',
   breadcrumb: true,
   submenu: [
     {
-      key: 'basic',
+      key: 'dashboard',
       path: `${APP_PREFIX_PATH}/home/dashboard`,
-      title: 'Дашбоард',
+      title: 'sidenav.dashboard',
       icon: DashboardOutlined,
       breadcrumb: true,
       submenu: []
@@ -32,14 +32,14 @@ const dashBoardBasic = [{
     {
       key: 'catalog',
       path: `${APP_PREFIX_PATH}/home/catalog`,
-      title: 'Каталог',
+      title: 'sidenav.catalog',
       icon: ShoppingCartOutlined,
       breadcrumb: true,
       submenu: [
         {
           key: 'products',
           path: `${APP_PREFIX_PATH}/home/catalog/products`,
-          title: 'Товары',
+          title: 'sidenav.catalog.products',
           icon: '',
           breadcrumb: true,
           submenu: []
@@ -47,7 +47,7 @@ const dashBoardBasic = [{
         {
           key: 'categories',
           path: `${APP_PREFIX_PATH}/home/catalog/categories`,
-          title: 'Категории',
+          title: 'sidenav.catalog.categories',
           icon: '',
           breadcrumb: true,
           submenu: []
@@ -55,7 +55,7 @@ const dashBoardBasic = [{
         {
           key: 'collections',
           path: `${APP_PREFIX_PATH}/home/catalog/collections`,
-          title: 'Коллекции',
+          title: 'sidenav.catalog.collections',
           icon: '',
           breadcrumb: true,
           submenu: []
@@ -63,7 +63,7 @@ const dashBoardBasic = [{
         {
           key: 'combo',
           path: `${APP_PREFIX_PATH}/home/catalog/combo`,
-          title: 'Комбо',
+          title: 'sidenav.catalog.combo',
           icon: '',
           breadcrumb: true,
           submenu: []
